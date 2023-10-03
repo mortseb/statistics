@@ -1,0 +1,20 @@
+{
+    "name": "mortseb/statistics",
+    "description": "Librairie statistiques",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mortseb\\Statistics\\": "src/"
+        }
+    },
+    "scripts": { "test": "vendor/bin/pest" },
+    "require-dev": {
+        "pestphp/pest": "^1.23"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
